@@ -1,34 +1,31 @@
 {
-  "name": "firebase-looms-app",
-  "version": "1.0.0",
+  "name": "febriflow-landing",
+  "version": "1.2.0",
+  "description": "A powerful Firebase integration platform for modern web applications.",
   "private": true,
-  "description": "Febri Flow Looms Management App with React and Firebase",
-  "main": "src/index.js",
+  "author": {
+    "name": "Tirth Goyani",
+    "url": "https://github.com/tirthgoyani11"
+  },
+  "license": "ISC",
+  "main": "index.js",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "start": "live-server .",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "firebase": "^9.0.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-router-dom": "^6.22.2"
+    "three": "^0.128.0"
   },
   "devDependencies": {
-    "react-scripts": "5.0.1"
+    "live-server": "^1.2.2"
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  }
+  "keywords": [
+    "firebase",
+    "looms",
+    "textile",
+    "management",
+    "three.js",
+    "tailwindcss"
+  ],
+  "homepage": "https://github.com/tirthgoyani11"
 }
